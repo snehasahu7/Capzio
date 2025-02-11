@@ -48,7 +48,7 @@ function Caption({uploadfunctionality}){
                                  <input className="border-1 w-70 " type="file" onChange={handleFileChange} />
                                  {file && <p className="mt-2">Selected File: {file.name}</p>}
                               </div>
-                              <button onClick={handleupload} className="border-1 mx-10 px-2 rounded-lg bg-amber-950 text-stone-50 shadow-lg shadow-gray-500 border-black" type="submit">Upload</button>
+                              <button onClick={handleupload} className="border-1 mx-10 px-2 rounded-lg bg-amber-950 text-stone-50 shadow-lg shadow-gray-500 border-black cursor-pointer" type="submit">Upload</button>
                         </form> 
                         
                         {preview && <img className="hidden" src={preview} alt="Preview" style={{ width: '200px', marginTop: '1px', height:'70px' }} />}
