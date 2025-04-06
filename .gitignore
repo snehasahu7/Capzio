@@ -13,6 +13,8 @@ dist-ssr
 *.local
 
 # Editor directories and files
+backend/venv
+backend/__pycache__
 .vscode/*
 !.vscode/extensions.json
 .idea
